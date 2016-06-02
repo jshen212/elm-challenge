@@ -1,0 +1,60 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li>a:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .nav li {
+  width: 105px;
+  display: inline-block;
+  float: none;
+  font-weight: bold;
+}
+
+.navbar {
+  position: fixed;
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+
+.navbar .nav{
+  float: none;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 60px;
+}
+
+.video {
+  margin-top: 120px;
+}
+
+.video-title {
+  display: block;
+  width: 400px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-left: 33%;
+  margin-bottom: 10px;
+}
+
+#complete {
+  font-weight: bold;
+  color: green;
+}

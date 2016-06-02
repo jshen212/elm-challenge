@@ -1,0 +1,50 @@
+<div class="container">
+
+  <div class="video">
+    <div class="video-title">
+      <h3>FINDING A JOB WITH MEANING</h3>
+      <p><em>and doing it extremely well</em></p>
+    </div>
+
+    <youtube-video video-id="episode1" player-width="'100%'" player-height="'400px'" ></youtube-video>
+  </div>
+
+
+  <div class="tab-container">
+    <ul class="nav nav-tabs">
+      <li role="presentation" class="nav nav-active col-md-4 text-center" ng-click="clickTab1()"><a href="">CHP 1 | MY STORY</a></li>
+      <li role="presentation" class="nav col-md-4 text-center" ng-click="clickTab2()"><a href="">CHP 2 | DISCOVERING PASSION</a></li>
+      <li role="presentation" class="nav col-md-4 text-center" ng-click="clickTab3()"><a href="">CHP 3 | ROADBLOCKS</a></li>
+    </ul>
+
+    <div class="tab-content-container">
+      <ul class="tab1" ng-show="tab1">
+        <h3>Total Guide Progress</h3>
+        <p>Completed: <span id="complete">{{completed}}%</span></p>
+        <p>Today: {{date}}</p>
+      </ul>
+
+      <ul class="tab2" ng-show="tab2">
+        <h3>TOOLS</h3>
+        <li><input type="checkbox" value=""> What are two things in your life that have shaped who you are today?</li>
+        <hr>
+        <li><input type="checkbox" value=""> What makes you really upset?</li>
+        <hr>
+        <li><input type="checkbox" value=""> Write down three people who are where you want to be.</li>
+        <hr>
+        <li><input type="checkbox" value=""> Write down one thing that you admire about those 3 people.</li>
+        <hr>
+        <li><input type="checkbox" value=""> Go back through questions and evaluate answers.</li>
+      </ul>
+
+      <ul class="tab3" ng-show="tab3">
+        <h3>TOOLS</h3>
+        <li><input type="checkbox" value=""> Write down 3 things you are scared of?</li>
+        <hr>
+        <li><input type="checkbox" value=""> Find physical courage. Go do a physical activity you love, and then journal about your hopes and reams.</li>
+        <hr>
+        <li><input type="checkbox" value=""> What is holding you back from living a meaningful life?</li>
+      </ul>
+    </div>
+  </div>
+</div>
